@@ -99,6 +99,7 @@ const Shop = () => {
             name={items[0].label}
             price={items[0].price}
             description={items[0].description}
+            wallet={state.wallet}
           >
             <Input
               handleInputChange={handleInputChange}
@@ -114,6 +115,7 @@ const Shop = () => {
             name={items[1].label}
             price={items[1].price}
             description={items[1].description}
+            wallet={state.wallet}
           >
             <Input
               handleInputChange={handleInputChange}

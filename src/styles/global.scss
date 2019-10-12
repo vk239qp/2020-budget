@@ -39,6 +39,10 @@ button, a, .icon {
   color: #fff
 }
 
+.subtitle.is-4{
+  color: #51FC26;
+}
+
 @for $i from 0 through 7 {
   // Margin and padding
   .m-#{$i},
